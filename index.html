@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Pserrorlog : Save and show php error messages." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Pserrorlog</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/proudcommerce/psErrorLog">View on GitHub</a>
+
+          <h1 id="project_title">Pserrorlog</h1>
+          <h2 id="project_tagline">Save and show php error messages.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/proudcommerce/psErrorLog/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/proudcommerce/psErrorLog/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Free Module for OXID eShop.</p>
+
+<p>Features</p>
+
+<pre><code>- save php errors to log file
+- show php errors in shop admin
+- delete php error log file
+</code></pre>
+
+<p>Installation</p>
+
+<pre><code>1. copy content from copy_this folder into your shop root
+2. edit config.inc.php (see below)
+3. activate module psErrorLog in shop admin
+4. see php error log file in shop admin --&gt; service
+</code></pre>
+
+<p>Add to config.inc.php</p>
+
+<pre><code>// psErrorLog | start
+ini_set('error_reporting', E_ALL);
+ini_set('log_errors', true);
+ini_set('display_errors', false);
+ini_set('error_log','/YOURSHOPPATH/log/psErrorLog_PHP.log');
+// psErrorLog | end
+</code></pre>
+
+<p>Screenshot</p>
+
+<p><img src="https://raw.github.com/proudcommerce/psErrorLog/master/screenshot.jpg" alt="psErrorLog"></p>
+
+<p>License</p>
+
+<pre><code>This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+</code></pre>
+
+<p>Copyright</p>
+
+<pre><code>Proud Sourcing GmbH 2013
+www.proudcommerce.com
+</code></pre>
+
+<p>Credential‎</p>
+
+<pre><code>Thanks to Joscha Krug for code base ;-)
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Pserrorlog maintained by <a href="https://github.com/proudcommerce">proudcommerce</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
