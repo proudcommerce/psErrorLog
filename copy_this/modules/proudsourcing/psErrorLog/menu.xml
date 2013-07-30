@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+  <OXMENU id="NAVIGATION_ESHOPADMIN">
+      <MAINMENU id="mxservice">
+            <SUBMENU id="pserrorlog_show" cl="pserrorlog_show">
+                
+            </SUBMENU>
+        </MAINMENU>
+  </OXMENU>
+</OX>
